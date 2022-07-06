@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chats-KokoaTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>110%</span>
+        <!--Bettery Icon-->
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <!--Lightning Icon-->
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_btn">
+          <a class="link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav_btn">
+          <a class="link" href="chat.html"
+            ><span class="nav_notification noti">999+</span
+            ><i class="fa-solid fa-comment fa-2x"> </i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="link" href="more.html"
+            ><span class="nav-ellipsis_dot dotnot"></span
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <header class="screen_header">
+      <h1 class="screen_header_titles">Chats</h1>
+      <div class="screen_header_icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component_column">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX///99fv9/fv+Cff+Dff+FfP+HfP+Je/+Le/9biP9+fv+Bff+GfP+Ie/+Ke/9ygf9bh/9ch/9dh/9fhv9ghv9hhv9jhf9lhf9nhP9ohP9phP9rg/9sg/9tg/9ugv9vgv9wgv97f/98f/+Afv/q7P9zeP/5+v/Mzv/Bxf+Jkf9ufP+xt/+6v//i4//29//T1v+nqv9/if+Ynv9udP+Tl//m6P+dpf/R1P/Hyv+ttP/a3f+iqP+7vf+nr/+Jk/9kb//f9TwcAAAHJElEQVR4nO2YCZOqOBCA4943e9+H7BKUqCii4jW+//+vNkl3IKgj1nOmpjr0VzUzEKDpL+kEGPF56Ii3TuDVYUP69MDw29BhQ/r0wPC70GFD+vTA8PvQYUP6sCF92JA+4ofQYUP6sCF9xI+hw4b06YHhT6HDhvRhQ/r0wPDn0GFD+rAhfdiQPmxIH/FL6LAhfdiQPj0w/DV02JA+bEifHhj+FjpsSJ8eGP4eOmxIHzakj/gjdNiQPmxIHzakj/gzdNiQPj0w/Ct02JA+PTD8O3TYkD49MPwndNiQPj0wHIaOeOsEXh3x1gm8OuKtE3h1xFsn8OqIt07g1RHRMNIM8efs12XzM8ejy+Ou6Zmwd91k6MW5eqfLy1rHzY+IQocN6cOG9GFDiwJe5IYvFOr+MN2GShWH6WheHZdD1WpWF+JnTZdn6Fibp+N4eji1GlsXXI11GWYyHk82xR2SnYZqORNIPq7jqU1Ss3T5LdtNqt7dujNW+xRjJTtsK9bmjLXUR4/25Cd74C93bWV2V3Zzos5TSvfLTsUuQzkRHvu6h6dNY33jSbupaC6T2C1+rBFcVljntNSHx164oTstHRolu4kdrI5+mJ18zBBjX9rs7UDk5nfVMkxzzB587BlzyCJrx1rY64r8tqHYqLZhu5+E6BrFDkNpTXRN7dawgT2mEjs24NkyzCv9a6ZwmBN7GQy9GtkQ+Xiai6a103B0Zighk3QGf+29HjCMIBk9o4ew5cLZnWprUy58w9TUUGJ2jWq1bpKAXhEnKaEy827DNcY6eYZw6/xUShjMtHjIMGtmCXQZtq/szhFm3qpleLBdovvaCE2SxtBzWTe9ddPQzvbM1bc1xPEc6WIqZ/7t389QgaEeQz3zUo2IYtu+s80buNsTrgA2w/RkUl6pSJq9ZWMYF3kda2ZipV7ruWEMhgdz+VEp3/AJ3FU9hTom4m3DGKs0yWTst8sKCg6Wy23LcJhYachKeYZYpU2suNNwZ6bBTD5jqKZzzf70iKHrJhNdxQZoLtcwA+w46RR8w6Ky0nbJy6VXpdgt7Vi3DSe2SJ4bw0hJQ3wt8bsN43qFzxfe+wOYJQoEEixdNDTTcS/trNyXcIICGRcr3UkXq8OwtLV61TCWyGOGkVq4tESyrMsrw7HDIS5ahks7eNI8G8bSM9SvNE2sDcbqMpzr35Usro1hNZ9Dld5WvOOtLanz2qrY1x6BhpvrUIVpZpdzaQt50TLUik2sSt1TpfLJdleUXhoOXaSulSbuQsXbOq09TKA6F3xRO9pmOQfD0qSTxSbzTM7Q0MUa17FmEMsZelFN89DZmj+rGA1NiCuGN/PvNtSpF2690fPLNsD+RuHDaS5bhubowTzV8+GZoT5pOHexRrLTcCptgLECQ+kbRmt4aXzQEDJTcuPK62T3IXQW44RMSt9QmkzHZs6tpbKGqRdRyZX7Mig6DfWSbF6R1lcMZSzfbR831G8TlljhS6WZitordXnjU7w1hsq81czNVK1gCNCwjiWx7G1xdxjaPkyzyyrVt6xXgQcM3adFVFemKUhsNSOHT/HMGs7Q0Kx8iUl3p3zDVRMLKnUrW4bSN4zcGfYOT9fG8KUNvSmHH2hmTqL3TtWG2tbUVD6z975uiB9A1w13bUPbWuWN4aIxrF7AELMq6qzM8oBDYG6IBWdzRZvCqTabYJjVsWQzDu69UGdZQsKHszG0j9dmDGP4ztiXSpX4sXJToWulge8cMS5lCaNl5g6WpulsfAWfeYaR61v9HHOydsFCl3lZRhBgY0c+QZd3+GVrK74xjGO4rDaE9ylRLZeQUX7boMvQDUcyy+sRcMvLypwAtZt6hrW2KWPfULrnhEsZ7uD9PwS7pTHcN7XYGFbtC6D1vQ2xJmrMNBxguQ3iZjvTO2XuDLG2j7WhDTUo0lasCaaWt1o3yjO0s75+b0SXKPHPX9+ehd2G8uCHm5kmXM2EfQjC24ZYKM/QvWLrZPFfDhhr5StuUVBlfsY7bG3GMFZnhqp5AdF9EA8eNIxlVldFelQmnFqMDFOombHdMeuZ3JqtrWmFRrM+Hc1GhbFUPHU2+1VdXCreYWu6LerWhcEuk2qzAFYoM5CrUaI7K12PTx0leo+hjldmh+PxuChK6VrgqwV6wDJoNp/bgrPLODO54hV1qzytVquo9FqbsO5+3kGdk6UV5b0N61vcEe3eYJehBpqXiX/OXYakYUP6sCF9emD4b+iwIX16YDgIHTakDxvSpweGX4QOG9KHDekjPggdNqQPG9KnB4b/hQ4b0qcHhl+GDhvShw3pw4b0ER+GDhvShw3p0wPDj0KHDenDhvRhQ/qwIX3Ex6HDhvRhQ/qwIX3YkD7iq9BhQ/qwIX3EJ6HDhvRhQ/qwIX3E16HDhvRhQ/qIT0OHDenDhvTpgeE3ocOG9GFD+ojPQocN6cOG9Anf8H9T3IfZUnqv0QAAAABJRU5ErkJggg=="
+            class="user-component_avartar"
+          />
+          <div class="user-component_text">
+            <h4 class="user-component_title">SAMSUNG</h4>
+            <h5 class="user-component_subtitle">please check my Samsung Account info</h5>
+          </div>
+        </div>
+        <div class="user-component_column">
+          <span class="user-component_time">18:42</span>
+          <span class="noti_circle">1</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component_column">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMB4jmVLXIce1g7mXDwBwW6HopoPVYRyAdSM0QqRWQI3tDGymevDFddN_V1SDyLXNKlHw&usqp=CAU"
+            class="user-component_avartar"
+          />
+          <div class="user-component_text">
+            <h4 class="user-component_title">I-phone</h4>
+            <h5 class="user-component_subtitle">hey!</h5>
+          </div>
+        </div>
+        <div class="user-component_column">
+          <span class="user-component_time">13:11</span>
+          <span class="noti">999</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component_column">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUAAAD///8lJSW1tbXy8vL8/PykpKTGxsbs7Oz29vZgYGDp6empqamwsLDZ2dne3t6ampqJiYl5eXnT09NWVlY4ODjNzc1lZWVRUVG+vr6QkJBISEhvb289PT1JSUlqamp/f38MDAyOjo4bGxszMzMsLCwiIiKP/YGqAAADhUlEQVR4nO3c6VbiQBCGYRqSsBMWBRGQxdH7v8QJKEowC5CKVcT3+Ts5x/qGkO6u7lCrAQAAAAAAAAAAAAAAAAAAAADwt9TXD9ollGncbDvX0K6iNNue7/YqmzBwn/ralZTjoX0M6ALtWkrx9QFGRtrFlKF5EtA9aldTgulpQKddTQkasYBN7XLkbWIB3Vi7HnFv8YAVvEkH8YA97XrELSv/EbbiAas33M/iAT3teuTFh0L3pF2PvHjAoXY58uJj4Vy7nBI0qh4wNhhW8BaNfK8K/Y52LeX4CljZ1sUx35t2IaXx/HbYWGpXgUvVZ5vn4W68Sr1guwyaoee1BvPh+hfrkrEdTb8em/5k9/rzilUQxkb/cFj//TJv9nA2+3RucraSf+6eXxGZ3kt/fzFIqN75/cXxglkz6YLDf8Q/zcIv1Ugr33WD2Xt92W+nXuDuYaKz8rLqv8BEO0GOdcF8ka52hkyb/AD5WtopMowlAkYDh3aOVE8yAQ1Py/2qJ5xIBbS6chT6EjrP7OxN6B61+yQdygQ03CKWCejM3qK1nUzAmXaOdEmroesZ7qA+igT0tWNkCPLLv8CzdowMYX75+Sx/hDJPUssb3h2RhJZbGCLDvd3ZTC2rN3MFqyuKg8Tu2rVMn+Br5defz+qi6UBkXWF3SloTGiy0Q2QiIQkPLA/4MgkNrw2FEu60U2TJ3E66lOk5jcgK33ATSqoZbPkISl8koeXTtDLN0rZ2jAwCG6N7G+0c6V5lElp+1sgktPxN/HGA5kaL/D+lRKZfavlh8yKU0PBJDLEdbrPHFFIPcl2tu9XOkkzkJM0HqyfA5RJaXWWIncTY8y32TgVv0z2LL+nLJrR4mFZk7+LI5Mi/kExoc4Iqsg/8yeaYeP6GbwFW39EX2YE6eNGOkkLq7J4baCdJJfUhWhwqPgi1aywf1xfZ7Xbpb0rpEzn8ZXPefdQrHtD0yahI0VdmnLP+/mXhhs1UO0Gugl036/foXrGdNtMbwZ/qRQLafo4eFZiB2+2Wxt2+m2j6WNSpW7tSRtuISW5bDG+0y75G6gPVTz+2YbGDmCFhDh4GnffDv60284Rtjrv7ZbqzGao3jP/qwPpsx9Gzu3OY6unkyzhN+FWIt973B+nbf0k9UWceLfr9VnOU1jnr9CatthfO7+4GBQAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/7j8xviXsgcMNmQAAAABJRU5ErkJggg=="
+            class="user-component_avartar"
+          />
+          <div class="user-component_text">
+            <h4 class="user-component_title">Apple.co</h4>
+            <h5 class="user-component_subtitle">hello? i want to buy your phone</h5>
+          </div>
+        </div>
+        <div class="user-component_column">
+          <span class="user-component_time">1:22</span>
+          <span class="noti_circle">2</span>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/fc53c77dbe.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

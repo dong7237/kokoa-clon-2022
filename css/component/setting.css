@@ -1,0 +1,22 @@
+.setting_header {
+    display: flex;
+    justify-content: center;
+    padding: 50px 25px 20px 25px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.setting_header_column {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.setting_header_column:first-child {
+    margin-right: auto;
+    font-size: 38px;
+}
+
+.setting_header_column:last-child {
+    margin-left: auto;
+    font-size: 30px;
+}

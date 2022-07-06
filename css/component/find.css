@@ -1,0 +1,124 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.find-icons_icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.find-icons_icon i {
+    font-size: 32px;
+}
+
+.find-icons_icon span {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.recommend-friend {
+    padding-top: 15px;
+    border-top: 1px solid var(--line_color);
+    border-bottom: 1px solid var(--line_color);
+    color: var(--kakao_gray);
+    font-weight: 600;
+}
+
+.recommend-friend span {
+    display: block;
+    padding: 100px 25px;
+    text-align: center;
+}
+
+.open-chat {
+    font-weight: 500;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-chat_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+    align-items: center;
+    color: var(--kakao_gray);
+    font-weight: 600;
+}
+
+.open-chat_header i {
+    padding-left: 5px;
+}
+
+.open-chat_header span {
+    color: var(--line_color);
+}
+
+.open-chat_column {
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+.open-chat_column_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.open-chat_column_members {
+    display: flex;
+    font-size: 15px;
+    margin-top: 10px;
+    color: var(--kakao_gray);
+}
+
+.open-chat_column_hashtag {
+    text-transform: uppercase;
+    color: var(--kakao_gray);
+    margin-bottom: 5px;
+}
+
+.open-chat_column_members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 10px 0 0
+}
+
+.provider {
+    width: 1.5px;
+    height: 15px;
+    background-color: var(--line_color);
+    margin: 0 8px;
+}
+
+.open-chat_column_heart_count i {
+    margin-right: 5px;
+}
+
+.open-chat_column_heart_count {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 12px;
+    bottom: 8px;
+    right: 8px;
+
+}
+
+.open-chat_column_photo {
+    position: relative;
+}
+
+.open-chat_column_photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}

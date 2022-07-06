@@ -1,0 +1,70 @@
+.more_icon {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+.more_dotnot {
+    top: -30px;
+    right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.more_icon span {
+    color: var(--kakao_gray);
+}
+
+.more_suggestion {
+    border-top: 1px solid var(--line_color);
+    padding-top: 25px;
+}
+
+.more_suggestion_title {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.more_suggestion_icon_icons img {
+    width: 100px;
+    height: 100px;
+}
+
+.fa-note-sticky {
+    color: black;
+}
+
+.more_suggestion_icon {
+    display: flex;
+}
+
+.more_suggestion_icon_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.more_suggestion_icon_icons i {
+    display: flex;
+    background-color: var(--yellow);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.more_suggestion_icon_icons span {
+    color: var(--kakao_gray);
+}
+
+.fa-circle-exclamation {
+    color: tomato;
+}

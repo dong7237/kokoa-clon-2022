@@ -1,0 +1,35 @@
+.noti {
+    background-color: tomato;
+    width: 35px;
+    height: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+}
+
+.noti_circle {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.dotnot {
+    position: absolute;
+    display: flex;
+    background-color: tomato;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+}
