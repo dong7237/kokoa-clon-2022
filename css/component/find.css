@@ -1,22 +1,5 @@
-.find-icons {
-    display: flex;
-    justify-content: space-between;
+.in-find {
     margin-bottom: 25px;
-}
-
-.find-icons_icon {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.find-icons_icon i {
-    font-size: 32px;
-}
-
-.find-icons_icon span {
-    margin-top: 20px;
-    font-weight: 600;
 }
 
 .recommend-friend {
@@ -99,6 +82,26 @@
 
 .open-chat_column_heart_count i {
     margin-right: 5px;
+}
+
+.open-chat_column_heart_count i:hover {
+    animation: heartbeat 1s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        color: tomato;
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: none;
+    }
+
 }
 
 .open-chat_column_heart_count {

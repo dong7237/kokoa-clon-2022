@@ -23,3 +23,18 @@
     top: -5px;
     right: 5px;
 }
+
+@keyframes gear-move {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotatez(360deg);
+    }
+}
+
+.screen_header .fa-gear:hover {
+    will-change: transform;
+    animation: gear-move 1s linear infinite;
+}

@@ -36,3 +36,30 @@
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
 }
+
+#wait-screen {
+    background-color: var(--yellow);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
+    color: rgba(0, 0, 0, 0.8);
+    animation: hidewait-screen 0.3s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+@keyframes hidewait-screen {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+
+    }
+}

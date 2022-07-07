@@ -18,12 +18,53 @@
 .nav_btn {
     color: rgba(0, 0, 0, 0.7);
     position: relative;
+    animation: ap-btn-ani 0.2s ease-in-out forwards;
+    opacity: 0;
 }
+
+@keyframes ap-btn-ani {
+    from {
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.nav_btn:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.nav_btn:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.nav_btn:last-child {
+    animation-delay: 0.6s;
+}
+
+
 
 .nav_notification {
     left: 11px;
     bottom: 15px;
     position: absolute;
+    animation: not_animation 0.4s ease-in-out infinite;
+}
+
+@keyframes not_animation {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateY(-10px) rotateY(35deg);
+    }
+
+    100% {
+        transform: none;
+    }
 }
 
 .nav-ellipsis_dot {
